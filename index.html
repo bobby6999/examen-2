@@ -11,28 +11,35 @@
   <body>
     <div class="container">
       <div class="row">
+        <div class="col-12">
+          <div class="nav">
+            <a href="#home">Acceuil</a>
+            <a href="#carte">Notre Carte</a>
+            <a href="#évenements">Evènements</a>
+            <a href="#reservation">Réservation</a>
+          </div>
+        </div>
         <div class="col-2">
-          <div class="nav">nav</div>
           <div class="burger">
             <img src="img/burger menu.png" />
           </div>
         </div>
         <div class="col-10 col-lg-12">
-          <h1>Essen'ciel</h1>
+          <h1 id="home">Essen'ciel</h1>
         </div>
         <div class="col-12 col-lg-12">
           <div class="full"><img src="img/header.png" /></div>
         </div>
         <div class="col-12">
-          <h2 class="centered">Notre Carte</h2>
-          <p class="normal-text">
+          <h2 class="centered" id="#carte">Notre Carte</h2>
+          <p class="normal-centered-text">
             Nous favorisons les produits bio et locaux issus du commerce
             équitable. Découvrez notre carte saisonnière en cliquant ci-dessous.
           </p>
           <div class="button-center"><p class="button">Notre Carte</p></div>
         </div>
         <div class="col-12">
-          <h2 class="left">Évènements à venir</h2>
+          <h2 class="left" id="évenements">Évènements à venir</h2>
         </div>
         <div class="col-12 col-lg-3">
           <img src="img/atelierdécouverte.png" />
@@ -54,7 +61,11 @@
           <p class="normal-text">23.10.23 Elynn The Green (CH) Folk</p>
           <p class="italic">En savoir plus</p>
         </div>
-        <div class="col-12"><img src="img/guy-guitar.png" /></div>
+        <div class="col-12">
+          <div class="full">
+            <img src="img/guy-guitar.png" />
+          </div>
+        </div>
 
         <div class="col-12">
           <h2 class="centered">Réservation</h2>
@@ -62,86 +73,95 @@
             Possibilité de réserver en ligne ou par téléphone
           </p>
           <p class="normal-centered-text">Pour réserver en ligne cliquez ici</p>
-          <div class="button-center"><p class="button">réserver</p></div>
+          <div class="button-center">
+            <p class="button" id="#reservation">réserver</p>
+          </div>
         </div>
         <div class="col-12">
-          <img src="img/woman-tarot.png" />
+          <div class="full">
+            <img src="img/woman-tarot.png" />
+          </div>
         </div>
-        <div class="col-12"><p class="about">ESSEN’CIEL</p></div>
-        <div class="col-12">
-          <p class="normal-text">
-            Le restaurant Essen'Ciel est né d’une collaboration entre Maria Lily
-            et Jeanne Lily, deux soeurs veganes qui avaient comme rêve de créer
-            un espace convivial en mettant en avant leurs valeurs. Essen’Ciel
-            propose des mets et des boissons végétaliennes bonnes pour la santé.
-          </p>
-        </div>
-        <div class="col-12 col-lg-6">
-          <img src="img/place.png" />
-        </div>
-        <div class="col-12 col-lg-6">
-          <p class="normal-text">
-            Nous confectionnons une cuisine en utilisant des huiles essentielles
-            et des fleurs cueillies à la main. Nous proposons toutes les
-            semaines des événements culturels comme des concerts, des cours de
-            yoga, des tirages de tarot et des ateliers découverte des huiles
-            essentielles. Des livres sont également à dispositions dans le coin
-            bibliothèque mais aussi un coin shop proposant la vente de bijou
-            fait-main d'artisans locaux ainsi que les huiles essentielles que
-            nous utilisons dans notre carte.
-          </p>
-        </div>
-        <div class="col-12">
-          <img src="img/lily-soeurs.png" />
-        </div>
-
-
-
-        <footer>
+        <div class="col-12"><p class="about-title">ESSEN’CIEL</p></div>
+        <div class="about">
           <div class="col-12">
-            <h3 class="footer-title">essen'ciel</h3>
-            <p class="footer-text">Visitez-nous!</p>
+            <p class="normal-text">
+              Le restaurant Essen'Ciel est né d’une collaboration entre Maria
+              Lily et Suzanne Lily, deux soeurs veganes qui avaient comme rêve
+              de créer un espace convivial en mettant en avant leurs valeurs.
+              Essen’Ciel propose des mets et des boissons végétaliennes bonnes
+              pour la santé.
+            </p>
           </div>
-          <div class="col-10 col-lg-3">
-            <img src="img/maps.png" />
-            <p class="italic-footer">aller dans google maps</p>
+          <div class="col-sm-12 col-lg-6">
+            <img src="img/place.png" />
           </div>
-          <div>
+          <div class="col-sm-12 col-lg-6">
+            <p class="normal-text">
+              Nous confectionnons une cuisine en utilisant des huiles
+              essentielles et des fleurs cueillies à la main. Nous proposons
+              toutes les semaines des événements culturels comme des concerts,
+              des cours de yoga, des tirages de tarot et des ateliers découverte
+              des huiles essentielles. Des livres sont également à dispositions
+              dans le coin bibliothèque mais aussi un coin shop proposant la
+              vente de bijou fait-main d'artisans locaux ainsi que les huiles
+              essentielles que nous utilisons dans notre carte.
+            </p>
+          </div>
+          <div class="col-12">
+            <img src="img/lily-soeurs.png" />
+          </div>
+          <footer>
+            <div class="col-12">
+              <h3 class="footer-title">essen'ciel</h3>
+              <p class="footer-text">Visitez-nous!</p>
+            </div>
+            <div class="col-10 col-lg-3">
+              <img src="img/maps.png" />
+              <p class="italic-footer">aller dans google maps</p>
+            </div>
+            <div>
+              <div class="col-8 col-lg-3">
+                <div class="footer-text">
+                  <p><strong>ESSEN’CIEL</strong></p>
+                  <p>Rue du Chêne 48 1700 Fribourg</p>
+                </div>
+              </div>
+            </div>
             <div class="col-8 col-lg-3">
               <div class="footer-text">
-              <p><strong>ESSEN’CIEL</strong></p>
-              <p>Rue du Chêne 48 1700 Fribourg</p>
+                <p><strong>Horaires</strong></p>
+                <p>
+                  Ouverture du Lundi au Samedi<br />11h30 - 15h00<br />18h00 -
+                  22h30
+                </p>
+              </div>
             </div>
-          </div>
+
             <div class="col-8 col-lg-3">
               <div class="footer-text">
-              <p><strong>Horaires</strong></p>
-              <p>
-                Ouverture du Lundi au Samedi<br />11h30 - 15h00<br />18h00 - 22h30
-              </p>
+                <p><strong>Contact</strong></p>
+                <p>
+                  essenciel@gmail.com<br />
+                  +41 7109214818<br />
+                  Rue du chêne 48<br />
+                  1700 Fribourg
+                </p>
+              </div>
             </div>
-            </div>
-            <div class="col-8 col-lg-3">
-              <div class="footer-text">
-              <p><strong>Contact</strong></p>
-              <p>
-                essenciel@gmail.com<br />
-                +41 7109214818<br />
-                Rue du chêne 48<br />
-                1700 Fribourg
-              </p>
-            </div>
-            </div>
+
             <div class="col-12 col-lg-6">
               <div class="socials">
                 <img src="img/insta.png" />
                 <img src="img/twitter.png" />
                 <img src="img/facebook.png" />
               </div>
-            <div class="col-12 col-lg-6">
-              <p class="italic-footer">© copyright 2023 ESSEN’CIEL</p>
-          </div>
-        </footer>
+              <div class="col-12 col-lg-6">
+                <p class="italic-footer">© copyright 2023 ESSEN’CIEL</p>
+              </div>
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
   </body>

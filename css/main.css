@@ -83,6 +83,7 @@ h2 {
   font-style: italic;
   font-weight: 500;
   margin-bottom: 50px;
+  margin-left: 5px;
 }
 
 .normal-text {
@@ -121,18 +122,6 @@ body {
   background-color: #fff7cf;
 }
 
-@media (min-width: 992px) {
-  .burger {
-    display: none;
-  }
-}
-
-@media (max-width: 991px) {
-  .nav {
-    display: none;
-  }
-}
-
 .button {
   color: #5e773e;
   text-align: center;
@@ -157,7 +146,7 @@ body {
   margin-bottom: 30px;
 }
 
-.about {
+.about-title {
   color: #5e773e;
   font-family: Courage;
   font-size: 30px;
@@ -169,6 +158,10 @@ body {
 
 footer {
   background-color: #5e773e;
+}
+
+.about {
+  margin-bottom: 30px;
 }
 
 .footer-title {
@@ -196,4 +189,43 @@ footer {
   justify-content: flex-start;
   max-width: 20%;
   justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #5e773e;
+  font-family: TT Travels Next;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+@media (min-width: 992px) {
+  /* cuando es grande la pantalla */
+  .burger {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  /*cuando la pantalla es pequeña */
+  a {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  /* cuando es grande la pantalla */
+  .normal-centered-text {
+    margin: 0 150px 0 150px;
+  }
 }
