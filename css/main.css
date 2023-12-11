@@ -229,3 +229,13 @@ a {
     margin: 0 150px 0 150px;
   }
 }
+
+@media (min-width: 992px) {
+  .full img {
+    width: 100%;
+  }
+}
+
+image-about {
+  margin-bottom: 20px;
+}
